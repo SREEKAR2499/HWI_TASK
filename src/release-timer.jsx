@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 
 function ReleaseTimer() {
-    const nextReleaseString = "01:53:00 01 May 2025"; // Human-readable input
+    const nextReleaseString = "01:53:00 07 May 2025"; // Human-readable input
     const [displayTime, setDisplayTime] = useState("");
 
     useEffect(() => {
