@@ -39,7 +39,7 @@ function Logs() {
       setCurrentRoute(`${method} ${path}`);
 
       try {
-        const response = await fetch(`http://localhost:5000${path}`, {
+        const response = await fetch(`https://hwi-task-backend.vercel.app${path}`, {
           method,
           headers: { 'Content-Type': 'application/json' },
           body: ['POST', 'PUT', 'DELETE'].includes(method) ? JSON.stringify({}) : null
