@@ -1,0 +1,48 @@
+/* ExpiryPage.css */
+
+.expiry-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #fbecec;
+  }
+  
+  .expiry-card {
+    background: white;
+    padding: 30px 40px;
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgba(255, 0, 0, 0.1);
+    width: fit-content;
+    max-width: 50%;
+    text-align: center;
+    border-left: 6px solid #ff4d4f;
+  }
+  
+  .expiry-card h2 {
+    color: #ff4d4f;
+    margin-bottom: 10px;
+  }
+  
+  .expiry-card p {
+    color: #444;
+    font-size: 15px;
+    margin: 8px 0;
+  }
+  
+  .home-link {
+    margin-top: 20px;
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    background-color: #007bff;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-weight: 500;
+    transition: background-color 0.3s ease;
+  }
+  
+  .home-link:hover {
+    background-color: #0056b3;
+  }
+  
